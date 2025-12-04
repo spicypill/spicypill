@@ -1,1 +1,41 @@
+/* Page basics */
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #000022;      /* dark navy */
+  color: #00ffcc;                 /* neon aqua text */
+  font-family: "Press Start 2P", system-ui, sans-serif;
+  image-rendering: pixelated;
+}
+
+/* Centered, boxed layout */
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #000000;
+  border: 4px solid #00ffcc;
+  padding: 20px;
+  box-shadow: 0 0 20px #00ffcc;
+}
+
+/* Headings */
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Links */
+a {
+  color: #ffff00;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Retro header bar */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
